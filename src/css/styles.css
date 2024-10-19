@@ -4,6 +4,9 @@
 @import url('./container.css');
 
 /* ===== sections style===== */
+
+/*     .header  (z-index: 100;)     */
+
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./how-it-works.css');
