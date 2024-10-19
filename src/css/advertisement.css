@@ -1,15 +1,14 @@
-.padding {
+.container {
   padding: 0 10px;
 }
 .advertising-container {
   padding: 80px 0;
 }
 .advertising-text {
-  padding: 0 10px;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
 }
 .advertising-green-container {
@@ -19,11 +18,8 @@
   font-size: 48px;
   font-weight: 600;
   line-height: 1.04;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
-  background-color: #576f35;
-  border-radius: 12px;
   display: inline-block;
 }
 .advertising-description {
