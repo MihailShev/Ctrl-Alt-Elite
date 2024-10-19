@@ -3,11 +3,11 @@
   background-color: #7A3145;
 }
 
-.container {
+/* .container {
   max-width: 355px;
   padding: 0 10px;
   margin: 0 auto;
-}
+} */
 
 .footer-body {
   max-width: 296px;
@@ -138,7 +138,7 @@ address {
   font-weight: 500;
   line-height: 14px;
   /* 116.667% */
-  letter-spacing: -0.18px;
+  letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.50);
 }
 
@@ -199,7 +199,7 @@ address {
   .footer-contacts-link {
     font-size: 18px;
 line-height: 1.1; /* 111.111% */
-letter-spacing: -0.27px;
+letter-spacing: -0.01em;
   }
   .footer-address {
     max-width: 215px;
