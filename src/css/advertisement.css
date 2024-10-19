@@ -15,11 +15,6 @@
   background-color: #576f35;
   border-radius: 12px;
   padding: 3px 10px;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.04;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
   display: inline-block;
 }
 .advertising-description {
@@ -28,47 +23,40 @@
 }
 
 @media screen and (min-width: 768px) {
-  .padding {
-    padding: 0 16px;
+  .container {
+    padding: 0;
   }
   .advertising-container {
-    padding: 80px 0;
+    padding: 100px 0;
   }
   .advertising-text {
     font-size: 64px;
     line-height: 1.09em;
-    padding: 0 16px;
+    width: 747px;
   }
   .advertising-green-container {
-    font-size: 64px;
-    line-height: 1.09em;
     padding: 8px 16px;
   }
   .advertising-description {
     padding-left: 16px;
   }
 }
+
 @media screen and (min-width: 1280px) {
-  .padding {
-    padding: 0 100px;
-  }
   .advertising-container {
-    padding: 100px 0;
+    padding: 100px 100px;
   }
 
   .advertising-text {
     font-size: 76px;
     line-height: 1.05em;
-    padding: 0 13px;
     display: inline;
   }
   .advertising-green-container {
-    font-size: 76px;
-    line-height: 1.05em;
     padding: 13px 16px;
   }
   .advertising-description {
-    padding-left: 0;
+    padding-left: 13px;
     display: inline;
   }
 }
