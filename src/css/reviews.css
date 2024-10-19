@@ -10,35 +10,35 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.reviews-title-part {
-  color: #576f35;
-}
+
 .reviews-discription {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   margin-bottom: 40px;
 }
+.reviews-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 .reviews-list {
   display: flex;
-  /* gap: 25px; */
 }
 .reviews-item {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px 16px;
-  /* width: calc((100% - 50px) / 2); */
   width: 335px;
   height: 100%;
-  align-items: center;
-  justify-content: center;
 }
 .card-2,
 .card-3 {
   display: none;
 }
 .reviews-img {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 24px;
 }
 .reviews-item-title {
@@ -49,9 +49,6 @@
   text-align: center;
   color: #040306;
   margin-bottom: 8px;
-  text-align: center;
-  /* align-items: center;
-  justify-content: center; */
 }
 .reviews-item-discription {
   font-weight: 500;
@@ -59,8 +56,9 @@
   line-height: 1.29;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  /* justify-content: center;
-  margin-bottom: auto; */
+}
+.card-1 {
+  padding: 20px 16px 43px;
 }
 @media screen and (min-width: 768px) {
   .container-reviews {
@@ -91,17 +89,30 @@
     line-height: 1.4;
     color: rgba(20, 20, 20, 0.4);
   }
+  .card-1 {
+    padding: 20px;
+  }
   .card-2 {
     display: inline-block;
     width: 343px;
-    height: 258px;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    padding: 20px 20px 42px 20px;
   }
-  .reviews-list {
-    gap: 25px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+
+  .reviews-wrap {
+    gap: 18px;
+  }
+
+  .reviews-item:hover,
+  .reviews-item:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border: 1px solid rgb(87, 111, 53);
+  }
+
+  .reviews-item {
+    box-shadow: none;
+    transition: box-shadow 250ms ease-in;
   }
 }
 
@@ -109,8 +120,10 @@
   .card-3 {
     display: inline-block;
     max-width: 343px;
-    height: 258px;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  .reviews-wrap {
+    gap: 25px;
   }
 }
