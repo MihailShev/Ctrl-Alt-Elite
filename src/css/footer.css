@@ -149,10 +149,10 @@ address {
     padding: 32px 0;
   }
 
-  .container {
+  /* .container {
     max-width: 736px;
     padding: 0 16px;
-  }
+  } */
 
   .footer-position-container {
     display: flex;
@@ -219,10 +219,10 @@ letter-spacing: -0.01em;
   .footer {
     padding: 50px 0;
   }
-  .container {
+  /* .container {
     max-width: 1104px;
     padding: 0 12px;
-  }
+  } */
  .footer-position-container {
   margin-bottom: 125px;
 
