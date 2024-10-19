@@ -1,0 +1,293 @@
+.order {
+  background: #7a3145;
+}
+
+.order-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.order-title-wrapper {
+  margin-bottom: 40px;
+}
+
+.order-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+}
+
+.order-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.order-form {
+  padding: 40px 20px;
+  max-width: 335px;
+  background: #fbfbfb;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.order-form-info {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.order-form-info-accentUs {
+  color: #7a3145;
+}
+
+.order-form-field {
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  width: 100%;
+  padding: 14px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  background-color: #fbfbfb;
+  outline: transparent;
+  transition: border 250ms ease-in;
+}
+
+.order-form-field:hover,
+.order-form-field:focus {
+  border-color: #7a3145;
+}
+
+.order-form-field:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+.order-form-field:not(:placeholder-shown):invalid {
+  border-color: #e74a3b;
+}
+
+.order-form-field::placeholder {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.order-form-input {
+  border-radius: 30px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+
+.order-form-comment {
+  border-radius: 15px;
+  height: 91px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.order-form-button {
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  background: #576f35;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  transition: background-color 250ms ease-in;
+}
+
+.order-form-button:hover,
+.order-form-button:focus {
+  background-color: #475a2c;
+}
+
+.order-info {
+  background: #576f35;
+  border-radius: 30px;
+  padding: 40px 20px;
+  max-width: 335px;
+}
+
+.order-info-img {
+  border-radius: 15px;
+  width: 100%;
+  height: 273px;
+  margin-bottom: 20px;
+}
+
+.order-info-invite {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+
+.order-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.order-item {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+.order-social-link {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  transition: color 250ms ease-in;
+}
+
+.order-item:not(:last-child) .order-social-link {
+  padding-right: 8px;
+}
+
+.order-item:hover .order-social-link,
+.order-item:focus .order-social-link {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .order-title-wrapper {
+    width: 640px;
+    margin-bottom: 50px;
+  }
+
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  .order-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-info-wrapper {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .order-form {
+    padding: 50px 100px;
+    max-width: 628px;
+    margin-bottom: 25px;
+  }
+
+  .order-form-info {
+    margin-bottom: 50px;
+  }
+
+  .order-form-field {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-field::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-input {
+    height: 52px;
+  }
+
+  .order-form-comment {
+    height: 95px;
+    margin-bottom: 25px;
+  }
+
+  .order-form-button {
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .order-info {
+    padding: 50px;
+    max-width: 628px;
+  }
+
+  .order-info-img {
+    margin-bottom: 50px;
+  }
+
+  .order-info-invite {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+
+  .order-list {
+    gap: 12px;
+  }
+
+  .order-item {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .order-social-link {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .order-item:not(:last-child) .order-social-link {
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-title-wrapper {
+    width: 751px;
+  }
+
+  .order-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-info-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    gap: 24px;
+  }
+
+  .order-form {
+    padding: 50px;
+    max-width: 529px;
+    margin-bottom: 0;
+  }
+
+  .order-info {
+    max-width: 527px;
+  }
+}
