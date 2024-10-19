@@ -3,11 +3,7 @@
   background-color: #7A3145;
 }
 
-/* .container {
-  max-width: 355px;
-  padding: 0 10px;
-  margin: 0 auto;
-} */
+
 
 .footer-body {
   max-width: 296px;
@@ -19,7 +15,7 @@
   margin-bottom: 40px;
 }
 
-/* logo */
+
 
 .tablet-logo {
   display: none;
@@ -34,21 +30,19 @@
 .tablet-logo {
   fill: rgba(251, 251, 251, 1);
 }
-.footer-text-container p {
- 
+.footer-text {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
-  /* 128.571% */
   color: #FBFBFB;
 }
-/* встановлюю відступи на випадок якщо замовник добавить текст */
-.footer-text-container p:not(:last-child) {
+
+.footer-text:not(:last-of-type) {
   margin-bottom: 8px;
 }
 
 
-/* menu */
+
 .footer-abut-container {
   display: inline-flex;
   flex-direction: column;
@@ -72,8 +66,8 @@
   color: #FBFBFB;
 }
 
-/* address */
-address {
+
+.footer-contacts {
   font-style: normal;
   margin: 0;
 }
@@ -91,7 +85,7 @@ address {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.3;
-  /* 128.571% */
+
   letter-spacing: -0.01em;
 
   color: #FBFBFB;
@@ -102,20 +96,20 @@ address {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.3;
-  /* 128.571% */
+
   letter-spacing: -0.01em;
 
   color: #FBFBFB;
 }
 
 
-/* site-info */
+
 .footer-site-info {
 
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
-  /* 116.667% */
+
   letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.50);
 
@@ -143,16 +137,12 @@ address {
 }
 
 
-/* -----TABLET--- */
+
 @media screen and (min-width: 768px) {
   .footer {
     padding: 32px 0;
   }
 
-  /* .container {
-    max-width: 736px;
-    padding: 0 16px;
-  } */
 
   .footer-position-container {
     display: flex;
@@ -178,8 +168,7 @@ address {
     margin-bottom: 0;
   }
 
-  /* link */
-  /* menu */
+
   .footer-abut-container {
     gap: 64px;
     margin-bottom: 0;
@@ -198,31 +187,28 @@ address {
   }
   .footer-contacts-link {
     font-size: 18px;
-line-height: 1.1; /* 111.111% */
+line-height: 1.1; 
 letter-spacing: -0.01em;
   }
   .footer-address {
     max-width: 215px;
     font-size: 18px;
-line-height: 1.1; /* 111.111% */
+line-height: 1.1; 
 letter-spacing: -0.01em;
   }
   .footer-site-info,
   .footer-legal-link {
     font-size: 18px;
-    line-height: 1.1; /* 111.111% */
+    line-height: 1.1; 
 letter-spacing: -0.01em;
   }
 }
-/* --Desktop--- */
+
 @media screen and (min-width: 1280px) {
   .footer {
     padding: 50px 0;
   }
-  /* .container {
-    max-width: 1104px;
-    padding: 0 12px;
-  } */
+ 
  .footer-position-container {
   margin-bottom: 125px;
 
