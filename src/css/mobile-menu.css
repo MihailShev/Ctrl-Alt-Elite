@@ -64,85 +64,86 @@
 }
 
 .mob-menu-nav-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(251, 251, 251, 0.4);
-    border-radius: 12px;
-    width: 115px;
-    height: 42px;
-    background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+  width: 115px;
+  height: 42px;
+  background-color: transparent;
 
-    transition: background-color 250ms ease-in, color 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in;
 }
 
 .mob-menu-nav-link:hover,
 .mob-menu-nav-link:focus {
-    background-color: #fbfbfb;
-    color: #7a3145;
+  background-color: #fbfbfb;
+  color: #7a3145;
 }
 
 .mob-menu-shop-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    width: 155px;
-    height: 50px;
-    background-color: #fbfbfb;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #7a3145;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 155px;
+  height: 50px;
+  background-color: #fbfbfb;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
 
     margin-top: auto;
     margin-bottom: 40px;
     transition: color 250ms ease-in;
 }
 
-.mob-menu-shop-btn:hover, .mob-menu-shop-btn:focus {
-    color: rgba(122, 49, 69, 0.7);
+.mob-menu-shop-btn:hover,
+.mob-menu-shop-btn:focus {
+  color: rgba(122, 49, 69, 0.7);
 }
 
 /*======= MOBILE VERSION =======*/
 /*======= TABLET VERSION =======*/
 
 @media screen and (min-width: 768px) {
-    .mob-menu-overlay {
-      background-color: rgba(20, 20, 20, 0.4);
-    }
+  .mob-menu-overlay {
+    background-color: rgba(20, 20, 20, 0.4);
+  }
 
-    .mob-menu {
-      width: 351px;
-    }
+  .mob-menu {
+    width: 351px;
+  }
 
-    .mob-menu-close-btn {
-        top: 32px;
-        right: 32px;
-    }
+  .mob-menu-close-btn {
+    top: 32px;
+    right: 32px;
+  }
 
-    .mob-menu-close-icon {
-        width: 40px;
-        height: 40px;
-    }
+  .mob-menu-close-icon {
+    width: 40px;
+    height: 40px;
+  }
 
     .mob-menu-nav {
         margin-top: 360px;
     }
 
-    .mob-menu-nav-link {
-        font-size: 16px;
-        line-height: 1.25;
-        width: 114px;
-        height: 44px;
-    }
+  .mob-menu-nav-link {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 114px;
+    height: 44px;
+  }
 
     .mob-menu-shop-btn {
         width: 157px;
