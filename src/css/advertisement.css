@@ -46,7 +46,9 @@
   .advertising-container {
     padding: 100px 100px;
   }
-
+  .advertising-container .container {
+    min-width: 1115px;
+  }
   .advertising-text {
     font-size: 76px;
     line-height: 1.05em;
@@ -56,7 +58,6 @@
     padding: 13px 16px;
   }
   .advertising-description {
-    padding-left: 13px;
     display: inline;
   }
 }
