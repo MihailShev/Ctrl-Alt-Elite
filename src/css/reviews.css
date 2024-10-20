@@ -1,0 +1,129 @@
+.container-reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.reviews-discription {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 40px;
+}
+.reviews-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.reviews-list {
+  display: flex;
+}
+.reviews-item {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 16px;
+  width: 335px;
+  height: 100%;
+}
+.card-2,
+.card-3 {
+  display: none;
+}
+.reviews-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.reviews-item-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+.reviews-item-discription {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+.card-1 {
+  padding: 20px 16px 43px;
+}
+@media screen and (min-width: 768px) {
+  .container-reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .reviews-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+    max-width: 553px;
+  }
+  .reviews-discription {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    max-width: 553px;
+  }
+  .reviews-item-title {
+    font-size: 18px;
+    line-height: 1.1;
+    text-align: center;
+    color: #141414;
+    margin-bottom: 8px;
+  }
+  .reviews-item-discription {
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgba(20, 20, 20, 0.4);
+  }
+  .card-1 {
+    padding: 20px;
+  }
+  .card-2 {
+    display: inline-block;
+    width: 343px;
+    height: 100%;
+    padding: 20px 20px 42px 20px;
+  }
+
+  .reviews-wrap {
+    gap: 18px;
+  }
+
+  .reviews-item:hover,
+  .reviews-item:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border: 1px solid rgb(87, 111, 53);
+  }
+
+  .reviews-item {
+    box-shadow: none;
+    transition: box-shadow 250ms ease-in;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card-3 {
+    display: inline-block;
+    max-width: 343px;
+    height: 100%;
+    padding: 20px;
+  }
+  .reviews-wrap {
+    gap: 25px;
+  }
+}
