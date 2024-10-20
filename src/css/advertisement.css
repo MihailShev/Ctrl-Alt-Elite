@@ -16,6 +16,7 @@
   border-radius: 12px;
   padding: 3px 10px;
   display: inline-block;
+  animation: discount-40 5s linear infinite;
 }
 .advertising-description {
   padding-left: 10px;
@@ -60,4 +61,18 @@
   .advertising-description {
     display: inline;
   }
+}
+
+  @keyframes discount-40 {
+    0% {
+      color: rgb(251, 251, 251, 1);
+    }
+    
+    50% {
+      color: rgb(251, 251, 251, 0.2);
+    }
+    
+    100% {
+      color: rgb(251, 251, 251, 1);
+    }
 }
