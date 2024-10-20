@@ -120,8 +120,14 @@
     border-radius: 12px;
     padding: 12px 0;
     background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  .heared-list-item:hover,
+  .heared-list-item:focus {
+    background-color: #445a26;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
   .header-btn {
     align-items: center;
     justify-content: center;
@@ -135,11 +141,13 @@
     line-height: 1.12;
     letter-spacing: -0.01em;
     color: #fbfbfb;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-btn:hover,
   .header-btn:focus {
     background-color: #622133;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 }
