@@ -8,7 +8,6 @@
 }
 
 .main-title {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -16,12 +15,10 @@
   text-transform: uppercase;
   color: #fbfbfb;
   width: 100%;
-  margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-text {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -46,7 +43,7 @@
   .main-title {
     width: 704px;
     font-size: 76px;
-    padding-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .hero-text {
@@ -71,7 +68,7 @@
   }
 
   .main-title {
-    padding-bottom: 128px;
+    margin-bottom: 128px;
     width: 502px;
   }
 
