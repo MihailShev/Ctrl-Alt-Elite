@@ -1,0 +1,122 @@
+/*===========Vegetables=========*/
+.vegetables {
+  padding: 80px 0;
+  background-color: #7a3145;
+}
+.vegetables-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.vegetables-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+.vegetables-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.vegetables-item {
+  background-color: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px 26px;
+  max-width: 334px;
+  position: relative;
+  overflow: hidden;
+}
+.item-title-vegetables {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #7a3145;
+  margin-bottom: 12px;
+}
+.item-text-vegetables {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+.vegetables-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  padding: 40px 32px;
+  background-color: #576f35;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in;
+}
+.vegetables-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+}
+.vegetables-item:hover .vegetables-overlay {
+  transform: translateY(0);
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
+  .vegetables-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 50px;
+    max-width: 508px;
+  }
+
+  .vegetables-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 626px;
+  }
+  .vegetables-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 20px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 20px) / 2);
+    padding: 32px 30px;
+  }
+  .item-title-vegetables {
+    font-size: 32px;
+  }
+  .vegetables-overlay {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .vegetables-title {
+    margin-bottom: 25px;
+  }
+
+  .vegetables-item {
+    width: calc((100% - 40px) / 3);
+    padding: 32px 32px;
+  }
+}
+/*===========Vegetables=========*/
