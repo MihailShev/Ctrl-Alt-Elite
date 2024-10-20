@@ -1,0 +1,128 @@
+.hiw-container {
+  padding: 0 0;
+  max-width: 1280px;
+}
+.hiw-back-bordo {
+  background-color: #7a3145;
+}
+.hiw-back-green {
+  background-color: #576f35;
+}
+.hiw-image-wrapper {
+  padding: 40px 20px;
+}
+.hiw-image {
+  width: 100%;
+}
+.hiw-list-wrapper {
+  padding: 80px 20px;
+}
+.hiw-main-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hiw-submain-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-bottom: 40px;
+}
+.hiw-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  counter-reset: section;
+}
+.hiw-item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  padding: 12px 59px 12px 24px;
+  display: flex;
+  align-items: center;
+}
+.hiw-item:first-child {
+  padding: 12px 27px 12px 24px;
+}
+.hiw-item:last-child {
+  padding: 12px 24px;
+}
+
+.bold-text {
+  font-weight: 700;
+  color: #141414;
+}
+.hiw-item::before {
+  counter-increment: section;
+  content: ' ' counter(section) '';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  text-align: center;
+  min-width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #7a3145;
+  border: 5px solid rgba(122, 49, 69, 0.3);
+  background-clip: content-box;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hiw-image-wrapper {
+    padding: 100px 64px;
+  }
+  .hiw-list-wrapper {
+    padding: 100px 159px;
+  }
+  .hiw-main-text {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .hiw-submain-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+  .hiw-item {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 12px 27px 12px 24px;
+  }
+  .hiw-item:first-child {
+    padding: 12px 25px 12px 24px;
+  }
+  .hiw-item:last-child {
+    padding: 12px 27px 12px 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hiw {
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  }
+  .hiw-container {
+    display: flex;
+  }
+  .hiw-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 630px;
+  }
+  .hiw-list-wrapper {
+    padding: 100px 100px 160px;
+  }
+}
