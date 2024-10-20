@@ -1,4 +1,4 @@
-.container {
+.advertising-container .container {
   padding: 0 10px;
 }
 .advertising-container {
@@ -23,8 +23,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0;
+  .advertising-container .container {
+    padding: 0 16px;
   }
   .advertising-container {
     padding: 100px 0;
@@ -32,7 +32,7 @@
   .advertising-text {
     font-size: 64px;
     line-height: 1.09em;
-    width: 747px;
+    width: 704px;
   }
   .advertising-green-container {
     padding: 8px 16px;
