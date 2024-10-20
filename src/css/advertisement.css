@@ -1,4 +1,4 @@
-.advertising-container .container {
+.advertising-container.container {
   padding: 0 10px;
 }
 .advertising-container {
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertising-container .container {
+  .advertising-container.container {
     padding: 0 16px;
   }
   .advertising-container {
