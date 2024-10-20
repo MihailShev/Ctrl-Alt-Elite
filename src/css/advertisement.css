@@ -1,0 +1,63 @@
+.advertising-container .container {
+  padding: 0 10px;
+}
+.advertising-container {
+  padding: 80px 0;
+}
+.advertising-text {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.advertising-green-container {
+  background-color: #576f35;
+  border-radius: 12px;
+  padding: 3px 10px;
+  display: inline-block;
+}
+.advertising-description {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .advertising-container .container {
+    padding: 0 16px;
+  }
+  .advertising-container {
+    padding: 100px 0;
+  }
+  .advertising-text {
+    font-size: 64px;
+    line-height: 1.09em;
+    width: 704px;
+  }
+  .advertising-green-container {
+    padding: 8px 16px;
+  }
+  .advertising-description {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertising-container {
+    padding: 100px 100px;
+  }
+  .advertising-container .container {
+    min-width: 1115px;
+  }
+  .advertising-text {
+    font-size: 76px;
+    line-height: 1.05em;
+    display: inline;
+  }
+  .advertising-green-container {
+    padding: 13px 16px;
+  }
+  .advertising-description {
+    display: inline;
+  }
+}
