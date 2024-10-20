@@ -3,7 +3,7 @@
 .mob-menu-overlay {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     width: 100%;
     height: 100%;
     z-index: 9;
@@ -17,7 +17,6 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    right: 100%;
 }
 
 .mob-menu {
@@ -26,12 +25,16 @@
     align-items: center;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 100%;
     height: 100%;
     z-index: 10;
     background-color: #7a3145;
     transition: right 250ms ease-in;
+}
+
+.mob-menu-overlay.is-open .mob-menu {
+  right: 0;
 }
 
 .mob-menu-close-btn {
@@ -53,7 +56,7 @@
 }
 
 .mob-menu-nav {
-    margin-top: 240px;
+    margin-top: auto;
 }
 
 .mob-menu-nav-list {
@@ -133,10 +136,6 @@
     width: 40px;
     height: 40px;
   }
-
-    .mob-menu-nav {
-        margin-top: 360px;
-    }
 
   .mob-menu-nav-link {
     font-size: 16px;
