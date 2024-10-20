@@ -340,11 +340,15 @@
           <span class="assistant-color">the form</span>
           below and we will contact you !
         </p>
-        <input class="order-form-field order-form-input" type="text" name="fullName" placeholder="Full Name"
-          pattern="[A-Za-zА-Яа-яЁё\s]+" required>
-        <input class="order-form-field order-form-input" type="email" name="email" placeholder="Email"
+        <label class="order-form-label visually-hidden" for="fullName">Full Name</label>
+        <input class="order-form-field order-form-input" type="text" name="fullName" id="fullName"
+          placeholder="Full Name" pattern="[A-Za-zА-Яа-яЁё\s]+" required>
+        <label class="order-form-label visually-hidden" for="email">Email</label>
+        <input class="order-form-field order-form-input" type="email" id="email" name="email" placeholder="Email"
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
-        <textarea class="order-form-field order-form-comment" name="comment" placeholder="Comment"></textarea>
+        <label class="order-form-label visually-hidden" for="comment">Comment</label>
+        <textarea class="order-form-field order-form-comment" id="comment" name="comment"
+          placeholder="Comment"></textarea>
         <button class="order-form-button accent-color" type="submit">Send</button>
       </form>
 
