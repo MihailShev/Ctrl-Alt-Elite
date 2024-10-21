@@ -1,5 +1,8 @@
-.hero-container {
+.hero {
   background-color: #576f35;
+}
+
+.hero-container {
   padding-top: 100px;
   background-image: url(../img/hero/bg-mob.png);
   background-repeat: no-repeat;
