@@ -164,7 +164,7 @@
 
 .usd {
   font-size: 20px;
-  color: rgba(251, 251, 251, 0.3);
+  color: #fbfbfb;
 }
 
 .buy-btn {
@@ -172,7 +172,7 @@
 
   width: 100px;
   height: 35px;
-  background: #fbfbfb;
+  background-color: #576f35;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.28;
@@ -321,10 +321,15 @@
   line-height: 1.28;
   letter-spacing: -0.01em;
   color: #fbfbfb;
-  cursor: pointer;
+  box-shadow: 3px 3px 2px rgba(20, 20, 20, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 250ms ease-in;
+}
+
+.checkbox-btn:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 768px) {
@@ -352,8 +357,8 @@
   }
 
   .prise-btn {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
   }
 
   .all-price {
