@@ -32,6 +32,7 @@
   background: #fbfbfb;
   border-radius: 30px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .order-form-info {
@@ -74,12 +75,50 @@
 }
 
 .order-form-field::placeholder {
-  font-family: 'Inter Tight', sans-serif;
+  color: transparent;
+}
+
+.order-form-label {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
+  position: absolute;
+  transition: transform 500ms ease-in, font-size 250ms ease-in, color 250ms ease-in;
+}
+
+.order-form-label:not(:last-of-type) {
+  transform: translate(16px, -47px);
+}
+
+.order-form-label:last-of-type {
+  transform: translate(16px, -105px);
+}
+
+.order-form-field:active + .order-form-label:not(:last-of-type) ,
+.order-form-field:focus + .order-form-label:not(:last-of-type),
+.order-form-field:not(:placeholder-shown) + .order-form-label:not(:last-of-type) {
+  transform: translate(186px, -75px);
+  font-size: 12px;
+}
+
+.order-form-field:active + .order-form-label:last-of-type ,
+.order-form-field:focus + .order-form-label:last-of-type,
+.order-form-field:not(:placeholder-shown) + .order-form-label:last-of-type {
+  transform: translate(186px, -130px);
+  font-size: 12px;
+}
+
+.order-form-field:focus + .order-form-label {
+  color: #7a3145;
+}
+
+.order-form-field:not(:placeholder-shown):invalid  + .order-form-label {
+  color: #e74a3b;
+}
+
+.order-form-field:not(:placeholder-shown):valid+ .order-form-label {
+  color: #3cbc81;
 }
 
 .order-form-input {
@@ -105,12 +144,16 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  transition: background-color 250ms ease-in;
+  box-shadow: none;
+  transform: none;
+  transition: background-color 250ms ease-in, box-shadow 250ms ease-in, transform 250ms ease-in;
 }
 
 .order-form-button:hover,
 .order-form-button:focus {
   background-color: #475a2c;
+  box-shadow: 3px 3px 2px rgba(20, 20, 20, 0.2);
+  transform: scale(1.05);
 }
 
 .order-info {
@@ -210,9 +253,31 @@
     line-height: 1.25;
   }
 
-  .order-form-field::placeholder {
+  .order-form-label {
     font-size: 16px;
     line-height: 1.25;
+  }
+  
+  .order-form-label:not(:last-of-type) {
+    transform: translate(16px, -51px);
+  }
+  
+  .order-form-label:last-of-type {
+    transform: translateY(16px, -111px);
+  }
+  
+  .order-form-field:active + .order-form-label:not(:last-of-type) ,
+  .order-form-field:focus + .order-form-label:not(:last-of-type),
+  .order-form-field:not(:placeholder-shown) + .order-form-label:not(:last-of-type) {
+    transform: translate(330px, -83px);
+    font-size: 14px;
+  }
+  
+  .order-form-field:active + .order-form-label:last-of-type ,
+  .order-form-field:focus + .order-form-label:last-of-type,
+  .order-form-field:not(:placeholder-shown) + .order-form-label:last-of-type {
+    transform: translate(330px, -141px);
+    font-size: 14px;
   }
 
   .order-form-input {

@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
-    <title>Green.Harvest</title>
 
-    <!----- color-status-bar ----->
-    <meta name="theme-color" content="#576F35" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#576F35" />
-    <!----- viewport ----->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!----- Google Fonts ----->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!----- Modern-normalize ----->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!----- Slider ----->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+  <title>Green.Harvest</title>
 
-    <link rel="stylesheet" href="./css/styles.css" />
+  <!----- color-status-bar ----->
+  <meta name="theme-color" content="#576F35" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#576F35" />
+  <!----- viewport ----->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!----- Google Fonts ----->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet" />
+  <!----- Modern-normalize ----->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!----- Slider ----->
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <load src="/partials/header.html" />
+  <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <load src="/partials/loader.html" />
 
     <div class="content">
       <load src="/partials/header.html" />
 
+      <main>
+        <!-- Loads the specified .html file -->
+        <load src="/partials/hero.html" />
+        <load src="/partials/how-it-works.html" />
+        <load src="/partials/advertisement.html" />
+        <load src="/partials/vegetables.html" />
+        <load src="/partials/reviews.html" />
+        <load src="/partials/your-order.html" />
+      </main>
       <main>
         <!-- Loads the specified .html file -->
         <load src="/partials/hero.html" />
@@ -51,4 +60,5 @@
 
     <script type="module" src="./main.js"></script>
   </body>
+
 </html>
