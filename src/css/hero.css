@@ -1,10 +1,8 @@
 .hero {
-  min-width: 375px;
   background-color: #576f35;
 }
 
 .hero-container {
-  padding-top: 100px;
   background-image: url(/img/hero/bg-mob.png);
   background-repeat: no-repeat;
   background-position: 0 100%;
@@ -40,7 +38,6 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    padding-top: 122px;
     background-image: url(/img/hero/bg-tab.png);
   }
 
