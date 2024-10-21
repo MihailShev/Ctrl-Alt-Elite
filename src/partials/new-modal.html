@@ -1,4 +1,4 @@
-<div class="main-baslet-wrapper">
+<div class="main-baslet-wrapper is-open">
   <div class="container wrapper-img">
     <button class="close-btn" type="button">
       <svg class="close-icon" width="25" height="25">
@@ -23,9 +23,17 @@
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">60</span> usd / kg</p>
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -44,9 +52,17 @@
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">50</span> usd / kg</p>
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -68,9 +84,17 @@
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">40</span> usd / kg</p>
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -89,9 +113,17 @@
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">60</span> usd / kg</p>
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -113,9 +145,17 @@
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">50</span> usd / kg</p>
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -139,9 +179,17 @@
           <p class="massa-prod"><span class="prise-prod">70</span> usd / kg</p>
 
           <div class="plus-icon">
-            <button class="prise-btn" type="button">-</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-minus"></use>
+              </svg>
+            </button>
             <span class="massa">0</span>
-            <button class="prise-btn" type="button">+</button>
+            <button class="prise-btn" type="button">
+              <svg class="plus-icon" width="15" height="15">
+                <use href="/img/new-icon.svg#icon-plus"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </li>
@@ -152,7 +200,7 @@
       <span class="all-price"> 0</span>
       <p class="word-total usd">Usd</p>
 
-      <button class="buy-btn">Buy</button>
+      <button class="buy-btn">Order</button>
     </div>
 
     <p class="title-form">Fill out the form below and we will contact you !</p>
@@ -161,6 +209,7 @@
         <label class="order-form-label" for="name">Name:</label>
         <input
           class="order-form-field order-form-input"
+          pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s'-]+$"
           type="text"
           id="name"
           name="name"

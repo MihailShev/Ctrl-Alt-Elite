@@ -11,17 +11,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
+  /* opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.is-open {
+/* .wrapper-img.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 .main-baslet-wrapper:not(.is-open) .overley {
   transform: translate(-50%, -100%);
@@ -50,8 +50,8 @@
 }
 
 .close-icon {
-  stroke-width: 3px;
   stroke: #fbfbfb;
+  transition: transform 250ms ease-in;
 }
 
 .close-btn {
@@ -63,6 +63,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.close-btn:hover .close-icon {
+  transform: rotate(90deg);
 }
 
 .product {
@@ -83,12 +88,13 @@
 }
 
 .modal-img {
-  margin: 0 auto 15px auto;
+  margin: 0 auto 15px;
 }
 
 .prise {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .prise-prod {
@@ -106,19 +112,24 @@
   text-transform: uppercase;
   color: #141414;
 }
+
+.plus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+  stroke: #fff;
+}
 .prise-btn {
   border-radius: 4px;
   background-color: #576f35;
   width: 20px;
   height: 20px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.11111;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #fbfbfb;
+  fill: #fbfbfb;
 }
 
 .massa {
@@ -126,7 +137,6 @@
 }
 
 .plus-icon {
-  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +165,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #141414;
+  color: rgba(251, 251, 251, 0.3);
   background: #fbfbfb;
   width: 70px;
   border-radius: 4px;
