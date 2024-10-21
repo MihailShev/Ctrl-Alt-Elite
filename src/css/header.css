@@ -1,12 +1,12 @@
 .header {
   min-width: 375px;
-  background-color: #576f35;
 }
 
 .header-container {
   padding: 20px 20px 48px 20px;
   display: flex;
   align-items: center;
+  background-color: #576f35;
 }
 
 .link-mab-logo {
