@@ -146,13 +146,15 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   box-shadow: none;
-  transition: background-color 250ms ease-in, box-shadow 250ms ease-in;
+  transform: none;
+  transition: background-color 250ms ease-in, box-shadow 250ms ease-in, transform 250ms ease-in;
 }
 
 .order-form-button:hover,
 .order-form-button:focus {
   background-color: #475a2c;
   box-shadow: 3px 3px 2px rgba(20, 20, 20, 0.2);
+  transform: scale(1.05);
 }
 
 .order-info {
