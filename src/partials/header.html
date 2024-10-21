@@ -1,40 +1,69 @@
 <header class="header">
   <div class="container header-container">
     <div class="not-desc">
-      <a class="link-mab-logo" href="index.html">
-        <svg class="mob-logo" width="168" height="16">
-          <use href="../img/icons.svg#icon-mobile-logo"></use></svg
-      ></a>
-      <button class="burger-btn" type="button">
-        <svg class="burger-icon" width="32" height="32">
+      <a class="link-mab-logo" href="index.html" aria-label="Site logo">
+        <svg class="mob-logo" width="168" height="16" aria-hidden="true">
+          <use href="/img/icons.svg#icon-mobile-logo"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button" data-menu-open-mobile>
+        <svg class="burger-icon" width="32" height="32" aria-hidden="true">
           <use href="/img/icons.svg#icon-icon-menu"></use>
         </svg>
       </button>
     </div>
+
     <div class="not-mob">
-      <a class="link-main-logo" href="index.html">
-        <svg class="main-logo" width="194" height="18">
-          <use href="../img/icons.svg#icon-main-logo"></use></svg
-      ></a>
-      <button class="burger-btn" type="button">
-        <svg class="burger-icon" width="40" height="40">
+      <a class="link-main-logo" href="index.html" aria-label="Site logo">
+        <svg class="main-logo" width="194" height="18" aria-hidden="true">
+          <use href="../img/icons.svg#icon-main-logo"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button" data-menu-open-tablet>
+        <svg class="burger-icon" width="40" height="40" aria-hidden="true">
           <use href="/img/icons.svg#icon-icon-menu"></use>
         </svg>
       </button>
+
       <nav class="header-nav">
         <ul class="headrer-list">
           <li class="heared-list-item">
-            <a class="header-list-link" href="#hiw">How It Works </a>
+            <a
+              class="header-list-link"
+              href="#hiw"
+              aria-label="go to section how it works"
+            >
+              How It Works
+            </a>
           </li>
+
           <li class="heared-list-item">
-            <a class="header-list-link" href="#vegetables">Vegetables</a>
+            <a
+              class="header-list-link"
+              href="#vegetables"
+              aria-label="go to section vegetables"
+            >
+              Vegetables
+            </a>
           </li>
+
           <li class="heared-list-item">
-            <a class="header-list-link" href="#reviews">Reviews </a>
+            <a
+              class="header-list-link"
+              href="#reviews"
+              aria-label="go to section reviews"
+            >
+              Reviews
+            </a>
           </li>
         </ul>
       </nav>
-      <button class="header-btn" type="button">Shop now</button>
+
+      <button class="header-btn" type="button" aria-label="button shop now">
+        Shop now
+      </button>
     </div>
   </div>
 </header>
