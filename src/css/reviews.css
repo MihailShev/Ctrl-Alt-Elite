@@ -17,11 +17,7 @@
   line-height: 1.29;
   margin-bottom: 40px;
 }
-.reviews-wrap {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-}
+
 .reviews-list {
   display: flex;
 }
@@ -41,6 +37,7 @@
   margin-right: auto;
   margin-bottom: 24px;
 }
+
 .reviews-item-title {
   font-weight: 600;
   font-size: 16px;
@@ -99,8 +96,8 @@
     padding: 20px 20px 42px 20px;
   }
 
-  .reviews-wrap {
-    gap: 18px;
+  .reviews-list {
+    column-gap: 18px;
   }
 
   .reviews-item:hover,
@@ -123,7 +120,7 @@
     height: 100%;
     padding: 20px;
   }
-  .reviews-wrap {
-    gap: 25px;
+  .reviews-list {
+    column-gap: 25px;
   }
 }
