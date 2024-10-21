@@ -50,6 +50,10 @@
   .advertising-container .container {
     min-width: 1115px;
   }
+
+  .wrapper-advertising-text {
+    max-width: 1077px;
+  }
   .advertising-text {
     font-size: 76px;
     line-height: 1.05em;
@@ -60,19 +64,20 @@
   }
   .advertising-description {
     display: inline;
+    padding-left: 0;
   }
 }
 
-  @keyframes discount-40 {
-    0% {
-      color: rgb(251, 251, 251, 1);
-    }
-    
-    50% {
-      color: rgb(251, 251, 251, 0.2);
-    }
-    
-    100% {
-      color: rgb(251, 251, 251, 1);
-    }
+@keyframes discount-40 {
+  0% {
+    color: rgb(251, 251, 251, 1);
+  }
+
+  50% {
+    color: rgb(251, 251, 251, 0.2);
+  }
+
+  100% {
+    color: rgb(251, 251, 251, 1);
+  }
 }
