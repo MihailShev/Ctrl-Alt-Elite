@@ -211,14 +211,14 @@
   display: block;
 }
 
-.order-form {
+.order-form-d {
   padding: 40px 20px;
   max-width: 335px;
   background: #fbfbfb;
   border-radius: 30px;
 }
 
-.order-form-label {
+.order-form-label-d {
   margin-bottom: 15px;
   font-weight: 500;
   font-size: 16px;
@@ -227,7 +227,7 @@
   color: #141414;
 }
 
-.order-form-field {
+.order-form-field-d {
   border: 1px solid rgba(20, 20, 20, 0.2);
   width: 100%;
   padding: 14px 16px;
@@ -240,20 +240,20 @@
   transition: border 250ms ease-in;
 }
 
-.order-form-field:hover,
-.order-form-field:focus {
+.order-form-field-d:hover,
+.order-form-field-d:focus {
   border-color: #7a3145;
 }
 
-.order-form-field:not(:placeholder-shown):valid {
+.order-form-field-d:not(:placeholder-shown):valid {
   border-color: #3cbc81;
 }
 
-.order-form-field:not(:placeholder-shown):invalid {
+.order-form-field-d:not(:placeholder-shown):invalid {
   border-color: #e74a3b;
 }
 
-.order-form-field::placeholder {
+.order-form-field-d::placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
@@ -261,7 +261,7 @@
   color: #c8c8c8;
 }
 
-.order-form-input {
+.order-form-input-d {
   border-radius: 30px;
   height: 46px;
   margin-top: 5px;
@@ -374,7 +374,7 @@
     height: 25px;
   }
 
-  .order-form {
+  .order-form-d {
     padding: 100px 25px;
     max-width: 500px;
   }
@@ -403,7 +403,7 @@
     gap: 25px;
     column-gap: 15px;
   }
-  .order-form {
+  .order-form-d {
     padding: 50px 20px 40px 20px;
   }
 
@@ -420,12 +420,12 @@
     font-size: 40px;
   }
 
-  .order-form-label {
+  .order-form-label-d {
     margin-left: 15px;
     font-size: 18px;
   }
 
-  .order-form-input {
+  .order-form-input-d {
     margin-bottom: 10px;
   }
   .textarea-lebal {
