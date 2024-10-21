@@ -167,3 +167,35 @@
     column-gap: 121px;
   }
 }
+
+
+
+/*   --menu */
+
+.footer-menu-item {
+  
+  perspective: 200px;
+  transform-origin: center;
+  
+}
+
+.footer-menu-item:hover .footer-menu-link {
+  display: block;
+  color: #85c925;
+transform: rotateY(65deg);
+transition: all 0.7s;
+}
+.footer-address:active,
+.footer-menu-item:active .footer-menu-link {
+color: #1f5e11;
+}
+
+
+/* tel */
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+color: rgba(251, 251, 251, 0.50);
+
+}
