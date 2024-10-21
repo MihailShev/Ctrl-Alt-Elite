@@ -28,46 +28,75 @@
     <!----- Slider ----->
 
     <script type="module" crossorigin src="/Ctrl-Alt-Elite/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Ctrl-Alt-Elite/assets/index-CacNF78r.css">
+    <link rel="stylesheet" crossorigin href="/Ctrl-Alt-Elite/assets/index-Qh6azzy8.css">
   </head>
   <body>
     <header class="header">
   <div class="container header-container">
     <div class="not-desc">
-      <a class="link-mab-logo" href="index.html">
-        <svg class="mob-logo" width="168" height="16">
-          <use href="../img/icons.svg#icon-mobile-logo"></use></svg
-      ></a>
-      <button class="burger-btn" type="button">
-        <svg class="burger-icon" width="32" height="32">
+      <a class="link-mab-logo" href="index.html" aria-label="Site logo">
+        <svg class="mob-logo" width="168" height="16" aria-hidden="true">
+          <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-mobile-logo"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button" data-menu-open-mobile>
+        <svg class="burger-icon" width="32" height="32" aria-hidden="true">
           <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-icon-menu"></use>
         </svg>
       </button>
     </div>
+
     <div class="not-mob">
-      <a class="link-main-logo" href="index.html">
-        <svg class="main-logo" width="194" height="18">
-          <use href="../img/icons.svg#icon-main-logo"></use></svg
-      ></a>
-      <button class="burger-btn" type="button">
-        <svg class="burger-icon" width="40" height="40">
+      <a class="link-main-logo" href="index.html" aria-label="Site logo">
+        <svg class="main-logo" width="194" height="18" aria-hidden="true">
+          <use href="../img/icons.svg#icon-main-logo"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button" data-menu-open-tablet>
+        <svg class="burger-icon" width="40" height="40" aria-hidden="true">
           <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-icon-menu"></use>
         </svg>
       </button>
+
       <nav class="header-nav">
         <ul class="headrer-list">
           <li class="heared-list-item">
-            <a class="header-list-link" href="#hiw">How It Works </a>
+            <a
+              class="header-list-link"
+              href="#hiw"
+              aria-label="go to section how it works"
+            >
+              How It Works
+            </a>
           </li>
+
           <li class="heared-list-item">
-            <a class="header-list-link" href="#vegetables">Vegetables</a>
+            <a
+              class="header-list-link"
+              href="#vegetables"
+              aria-label="go to section vegetables"
+            >
+              Vegetables
+            </a>
           </li>
+
           <li class="heared-list-item">
-            <a class="header-list-link" href="#reviews">Reviews </a>
+            <a
+              class="header-list-link"
+              href="#reviews"
+              aria-label="go to section reviews"
+            >
+              Reviews
+            </a>
           </li>
         </ul>
       </nav>
-      <button class="header-btn" type="button">Shop now</button>
+
+      <button class="header-btn" type="button" aria-label="button shop now">
+        Shop now
+      </button>
     </div>
   </div>
 </header>
@@ -76,42 +105,50 @@
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero">
-      <div class="container hero-container">
-        <h1 class="main-title">organic vegetables to your diet today!</h1>
-        <p class="hero-text">
-          Our expertly curated vegetable baskets are made with the freshest,
-          highest quality vegetables available. Fresh Harvest Box has got you
-          covered. Fresh, high-quality vegetables in expertly curated vegetable
-          baskets delivered to you.
-        </p>
-      </div>
-    </section>
+  <div class="container hero-container">
+    <h1 class="main-title">organic vegetables to your diet today!</h1>
+
+    <p class="hero-text">
+      Our expertly curated vegetable baskets are made with the freshest, highest
+      quality vegetables available. Fresh Harvest Box has got you covered.
+      Fresh, high-quality vegetables in expertly curated vegetable baskets
+      delivered to you.
+    </p>
+  </div>
+</section>
 
       <!-- How it work > hiw -->
 
 <section class="hiw" id="hiw">
   <div class="container hiw-container">
     <h2 class="visually-hidden">How it work</h2>
+
     <div class="hiw-back-bordo">
       <div class="hiw-image-wrapper container">
-        <picture
-          ><source
-            srcset="../img/how-it-works/fruit-cutting-desk.png 1x, ../img/how-it-works/fruit-cutting-desk@2x.png 2x"
-            media="(min-width:1280px)" />
+        <picture>
           <source
-            srcset="../img/how-it-works/fruit-cutting-tab.png 1x, ../img/how-it-works/fruit-cutting-tab@2x.png 2x"
-            media="(min-width:768px)" />
+            srcset="/Ctrl-Alt-Elite/assets/fruit-cutting-desk-BBcpnyv9.png 1x, /Ctrl-Alt-Elite/assets/fruit-cutting-desk@2x-D4AV7W4O.png 2x"
+            media="(min-width:1280px)"
+          />
           <source
-            srcset="../img/how-it-works/fruit-cutting-mob.png 1x, ../img/how-it-works/fruit-cutting-mob@2x.png 2x"
-            media="(max-width:767px)" />
+            srcset="/Ctrl-Alt-Elite/assets/fruit-cutting-tab-BlU8DgvL.png 1x, /Ctrl-Alt-Elite/assets/fruit-cutting-tab@2x-CE6cWERU.png 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/Ctrl-Alt-Elite/assets/fruit-cutting-mob-CNpnib0n.png 1x, /Ctrl-Alt-Elite/assets/fruit-cutting-mob@2x--TjakUaD.png 2x"
+            media="(max-width:767px)"
+          />
           <img
             class="hiw-image"
-            src="../img/how-it-works/fruit-cutting-mob.png"
+            src="/Ctrl-Alt-Elite/assets/fruit-cutting-mob-CNpnib0n.png"
             alt="Fruit Cutting"
             width="335"
-        /></picture>
+            height="450"
+          />
+        </picture>
       </div>
     </div>
+
     <div class="hiw-back-green">
       <div class="hiw-list-wrapper container">
         <p class="hiw-main-text accent-color">
@@ -119,11 +156,13 @@
           simply follow these
           <span class="shadow-color">easy steps</span>
         </p>
+
         <p class="hiw-submain-text accent-color">
           Our baskets are assembled with care and delivered straight to your
           doorstep, so you can enjoy the taste of fresh fruit without ever
           leaving your home.
         </p>
+
         <ol class="hiw-list">
           <li class="hiw-item">
             <p>
@@ -156,32 +195,40 @@
       <section class="advertising-container">
   <div class="container">
     <h2 class="visually-hidden">Advertising</h2>
-    <p class="advertising-text">
-      <span class="advertising-green-container accent-color"
-        >Discount up to 40%!
-      </span>
-      <span class="advertising-description"
-        >Taste the vitamins and keep your health</span
-      >
-    </p>
+
+    <div class="wrapper-advertising-text">
+      <p class="advertising-text">
+        <span class="advertising-green-container accent-color"
+          >Discount up to 40%!
+        </span>
+
+        <span class="advertising-description"
+          >Taste the vitamins and keep your health
+        </span>
+      </p>
+    </div>
   </div>
 </section>
 
       <!--Section Vegetables-->
-<section class="vegetables">
+<section class="vegetables" id="vegetables">
   <div class="container">
-    <h2 class="vegetables-title" id="vegetables">
+    <h2 class="vegetables-title">
       organic <span class="shadow-color">vegetables</span>
     </h2>
+
     <p class="vegetables-text">
       Our organic vegetables are hand-picked from local farms and delivered
       straight to your doorstep, ensuring that you get the freshest and most
       nutritious produce possible.
     </p>
+
     <ul class="vegetables-list">
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">eggplant</h3>
+
         <p class="item-text-vegetables">60 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/eggplant-B2iBI9vx.png 1x, /Ctrl-Alt-Elite/assets/eggplant@2x-D_KKiZQV.png 2x"
           src="/Ctrl-Alt-Elite/assets/eggplant-B2iBI9vx.png"
@@ -189,13 +236,17 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">
           Eggplant is a low-calorie product, the fruits are rich in fiber.
         </p>
       </li>
+
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">leek</h3>
+
         <p class="item-text-vegetables">50 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/leek-_6LKuvgL.png 1x, /Ctrl-Alt-Elite/assets/leek@2x-YOpY5GVY.png 2x"
           src="/Ctrl-Alt-Elite/assets/leek-_6LKuvgL.png"
@@ -203,11 +254,15 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">Leek is great in soups and pizzas.</p>
       </li>
+
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">mushrooms</h3>
+
         <p class="item-text-vegetables">40 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/mushrooms-CpeiJ0WV.png 1x, /Ctrl-Alt-Elite/assets/mushrooms@2x-Sm1lyDif.png 2x"
           src="/Ctrl-Alt-Elite/assets/mushrooms-CpeiJ0WV.png"
@@ -215,14 +270,18 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">
           Mushrooms the percentage of fat content in mushrooms is very low, they
           are low-calorie.
         </p>
       </li>
+
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">corn</h3>
+
         <p class="item-text-vegetables">60 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/corn-CqyMRUc8.png 1x, /Ctrl-Alt-Elite/assets/corn@2x-CKEvsWM-.png 2x"
           src="/Ctrl-Alt-Elite/assets/corn-CqyMRUc8.png"
@@ -230,13 +289,17 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">
           Corn is an annual plant of the leguminous family.
         </p>
       </li>
+
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">sweet potatoes</h3>
+
         <p class="item-text-vegetables">50 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/sweet-potatoes-BHIgftbY.png 1x, /Ctrl-Alt-Elite/assets/sweet-potatoes@2x-BEnDxGAb.png 2x"
           src="/Ctrl-Alt-Elite/assets/sweet-potatoes-BHIgftbY.png"
@@ -244,13 +307,17 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">
           Sweet potato is an alternative to regular potatoes, rich in vitamins.
         </p>
       </li>
+
       <li class="vegetables-item">
         <h3 class="item-title-vegetables">carrot</h3>
+
         <p class="item-text-vegetables">40 usd / kg</p>
+
         <img
           srcset="/Ctrl-Alt-Elite/assets/carrot-BZAORZtG.png 1x, /Ctrl-Alt-Elite/assets/carrot@2x-DKB6dghF.png 2x"
           src="/Ctrl-Alt-Elite/assets/carrot-BZAORZtG.png"
@@ -258,6 +325,7 @@
           width="282"
           height="243"
         />
+
         <p class="vegetables-overlay">
           Carrot is an edible root crop of carrots, rich in vitamins and trace
           elements.
@@ -273,60 +341,69 @@
       reviews from our
       <span class="reviews-title-part assistant-color">customers</span>
     </h2>
+
     <p class="reviews-discription">
       Words of our customers: impressions and opinions about the quality of our
       services and the freshness of our products.
     </p>
 
     <ul class="reviews-list">
-      <div class="reviews-wrap">
-        <li class="reviews-item card-1">
-          <img
-            class="reviews-img"
-            srcset="/Ctrl-Alt-Elite/assets/john-wax@2x-B9xcav67.png 2x"
-            src="data:image/png;base64,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"
-            alt="John Wax"
-            width="56"
-            height="56"
-          />
-          <h5 class="reviews-item-title">John Wax</h5>
-          <p class="reviews-item-discription">
-            These vegetables are my secret to delicious and healthy meals. The
-            quality is always at the highest level, the aroma and taste are
-            enchanting. I advise every fan of real products!
-          </p>
-        </li>
-        <li class="reviews-item card-2">
-          <img
-            class="reviews-img"
-            srcset="/Ctrl-Alt-Elite/assets/victoria-romashenko@2x-CqSa4jFI.png 2x"
-            src="data:image/png;base64,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"
-            alt="Victoria Romashenko"
-            width="56"
-            height="56"
-          />
-          <h5 class="reviews-item-title">Victoria Romashenko</h5>
-          <p class="reviews-item-discription">
-            I love how fast and fresh the vegetables are delivered. Salads
-            always turn out so appetizing, and soups are real masterpieces. The
-            quality is impeccable!
-          </p>
-        </li>
-        <li class="reviews-item card-3">
-          <img
-            class="reviews-img"
-            srcset="../img/reviews/ihor-trachuk@2x.png 2x"
-            src="data:image/png;base64,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"
-            alt="Ihor Trachuk"
-          />
-          <h5 class="reviews-item-title">Ihor Trachuk</h5>
-          <p class="reviews-item-discription">
-            Recently tried my fresh tomatoes and peppers - amazing! The
-            authenticity of the taste, as if from the garden directly to my
-            table. It is now my main vegetable supplier.
-          </p>
-        </li>
-      </div>
+      <li class="reviews-item card-1">
+        <img
+          class="reviews-img"
+          srcset="/Ctrl-Alt-Elite/assets/john-wax@2x-B9xcav67.png 2x"
+          src="data:image/png;base64,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"
+          alt="John Wax"
+          width="56"
+          height="56"
+        />
+
+        <h4 class="reviews-item-title">John Wax</h4>
+
+        <p class="reviews-item-discription">
+          These vegetables are my secret to delicious and healthy meals. The
+          quality is always at the highest level, the aroma and taste are
+          enchanting. I advise every fan of real products!
+        </p>
+      </li>
+
+      <li class="reviews-item card-2">
+        <img
+          class="reviews-img"
+          srcset="/Ctrl-Alt-Elite/assets/victoria-romashenko@2x-CqSa4jFI.png 2x"
+          src="data:image/png;base64,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"
+          alt="Victoria Romashenko"
+          width="56"
+          height="56"
+        />
+
+        <h4 class="reviews-item-title">Victoria Romashenko</h4>
+
+        <p class="reviews-item-discription">
+          I love how fast and fresh the vegetables are delivered. Salads always
+          turn out so appetizing, and soups are real masterpieces. The quality
+          is impeccable!
+        </p>
+      </li>
+
+      <li class="reviews-item card-3">
+        <img
+          class="reviews-img"
+          srcset="../img/reviews/ihor-trachuk@2x.png 2x"
+          src="data:image/png;base64,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"
+          alt="Ihor Trachuk"
+          width="56"
+          height="56"
+        />
+
+        <h4 class="reviews-item-title">Ihor Trachuk</h4>
+
+        <p class="reviews-item-discription">
+          Recently tried my fresh tomatoes and peppers - amazing! The
+          authenticity of the taste, as if from the garden directly to my table.
+          It is now my main vegetable supplier.
+        </p>
+      </li>
     </ul>
   </div>
 </section>
@@ -334,133 +411,241 @@
       <section class="order">
   <div class="container order-container">
     <div class="order-title-wrapper">
-      <h2 class="order-title accent-color">Fresh <span class="shadow-color">Harvest</span> Box has got you covered</h2>
-      <p class="order-description accent-color">Our boxes are packed with delicious, nutritious vegetables, perfect for
-        anyone
-        looking
-        to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to
-        offer!</p>
-    </div>
-    <div class="order-form-info-wrapper">
+      <h2 class="order-title accent-color">
+        Fresh <span class="shadow-color">Harvest</span> Box has got you covered
+      </h2>
 
+      <p class="order-description accent-color">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+
+    <div class="order-form-info-wrapper">
       <form class="order-form">
-        <p class="order-form-info">Ordering
-          <span class="order-form-info-accentUs">from us</span>
+        <p class="order-form-info">
+          Ordering
+          <span class="order-form-info-accentUs">from us </span>
           is quick and easy! Fill out
           <span class="assistant-color">the form</span>
           below and we will contact you !
         </p>
-        <label class="order-form-label visually-hidden" for="fullName">Full Name</label>
-        <input class="order-form-field order-form-input" type="text" name="fullName" id="fullName"
-          placeholder="Full Name" pattern="[A-Za-zА-Яа-яЁё\s]+" required>
-        <label class="order-form-label visually-hidden" for="email">Email</label>
-        <input class="order-form-field order-form-input" type="email" id="email" name="email" placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
-        <label class="order-form-label visually-hidden" for="comment">Comment</label>
-        <textarea class="order-form-field order-form-comment" id="comment" name="comment"
-          placeholder="Comment"></textarea>
-        <button class="order-form-button accent-color" type="submit">Send</button>
+
+        <label class="order-form-label visually-hidden" for="fullName">
+          Full Name
+        </label>
+        <input
+          class="order-form-field order-form-input"
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="Full Name"
+          pattern="[A-Za-zА-Яа-яЁё\s]+"
+          required
+        />
+
+        <label class="order-form-label visually-hidden" for="email">
+          Email
+        </label>
+        <input
+          class="order-form-field order-form-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+        />
+
+        <label class="order-form-label visually-hidden" for="comment">
+          Comment
+        </label>
+        <textarea
+          class="order-form-field order-form-comment"
+          id="comment"
+          name="comment"
+          placeholder="Comment"
+        ></textarea>
+
+        <button
+          class="order-form-button accent-color"
+          type="submit"
+          aria-label="Send button"
+        >
+          Send
+        </button>
       </form>
 
       <div class="order-info">
         <picture>
-          <source srcset="/Ctrl-Alt-Elite/assets/juicing-desk-uIhfFGA-.png 1x, /Ctrl-Alt-Elite/assets/juicing-desk@2x-yGGr4brZ.png 2x"
-            media="(min-width: 1158px)">
-          <source srcset="/Ctrl-Alt-Elite/assets/juicing-tab-BLcblli-.png 1x, /Ctrl-Alt-Elite/assets/juicing-tab@2x-DjRmDocY.png 2x"
-            media="(min-width: 768px)">
-          <source srcset="/Ctrl-Alt-Elite/assets/juicing-mob-CPs81fg6.png 1x, /Ctrl-Alt-Elite/assets/juicing-mob@2x-DE-zpe2o.png 2x"
-            media="(max-width: 767px)">
+          <source
+            srcset="/Ctrl-Alt-Elite/assets/juicing-desk-uIhfFGA-.png 1x, /Ctrl-Alt-Elite/assets/juicing-desk@2x-yGGr4brZ.png 2x"
+            media="(min-width: 1158px)"
+          />
 
-          <img class="order-info-img" src="/Ctrl-Alt-Elite/assets/juicing-mob-CPs81fg6.png" alt="vitamines" width="295">
+          <source
+            srcset="/Ctrl-Alt-Elite/assets/juicing-tab-BLcblli-.png 1x, /Ctrl-Alt-Elite/assets/juicing-tab@2x-DjRmDocY.png 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/Ctrl-Alt-Elite/assets/juicing-mob-CPs81fg6.png 1x, /Ctrl-Alt-Elite/assets/juicing-mob@2x-DE-zpe2o.png 2x"
+            media="(max-width: 767px)"
+          />
+
+          <img
+            class="order-info-img"
+            src="/Ctrl-Alt-Elite/assets/juicing-mob-CPs81fg6.png"
+            alt="vitamines"
+            width="295"
+          />
         </picture>
 
-        <p class="order-info-invite shadow-color">Follow us on our social networks:</p>
+        <p class="order-info-invite shadow-color">
+          Follow us on our social networks:
+        </p>
+
         <ul class="order-list">
           <li class="order-item accent-color">
-            <a class="order-social-link" href="https://www.instagram.com/goitclub/ " target="_blank">instagram</a>
+            <a
+              class="order-social-link"
+              href="https://www.instagram.com/goitclub/ "
+              target="_blank"
+              aria-label="Link instagram"
+              >instagram
+            </a>
             /
           </li>
+
           <li class="order-item accent-color">
-            <a class="order-social-link" href="https://www.facebook.com/goITclub/ " target="_blank">facebook</a>
+            <a
+              class="order-social-link"
+              href="https://www.facebook.com/goITclub/ "
+              target="_blank"
+              aria-label="Link facebook"
+              >facebook
+            </a>
             /
           </li>
+
           <li class="order-item accent-color">
-            <a class="order-social-link" href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+            <a
+              class="order-social-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              aria-label="Link youtube"
+              >youtube
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
     </main>
 
     <footer class="footer">
   <div class="container">
     <div class="footer-position-container">
       <div class="footer-body">
-        <a class="footer-logo-link" href="./index.html">
-          <svg class="mobile-logo" width="168" height="16">
+        <a class="footer-logo-link" href="./index.html" aria-label="Site logo">
+          <svg class="mobile-logo" width="168" height="16" aria-hidden="true">
             <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-mobile-logo"></use>
           </svg>
-          <svg class="tablet-logo" width="194" height="18">
+
+          <svg class="tablet-logo" width="194" height="18" aria-hidden="true">
             <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-main-logo"></use>
           </svg>
         </a>
 
-          <p class="footer-text">
-            Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
-
-          </p>
-        
+        <p class="footer-text">
+          Whether you're looking for a healthy snack or a thoughtful gift, our
+          fruit baskets are the perfect choice.
+        </p>
       </div>
 
+      <div class="footer-abut-container">
+        <nav>
+          <ul class="footer-menu-list">
+            <li class="footer-menu-item">
+              <a
+                class="footer-menu-link"
+                href="#hiw"
+                aria-label="go to section how it works"
+              >
+                how it works
+              </a>
+            </li>
 
-        <div class="footer-abut-container">
-          <nav>
-            <ul class="footer-menu-list">
-              <li class="footer-menu-item">
-                <a class="footer-menu-link" href="#hiw">
-                  how it works
-                </a>
-              </li>
-  
-              <li class="footer-menu-item">
-                <a class="footer-menu-link" href="#vegetables">
-                  vegetables
-                </a>
-              </li>
-  
-              <li class="footer-menu-item">
-                <a class="footer-menu-link" href="#reviews">
-                  reviews
-                </a>
-              </li>
-            </ul>
-          </nav>
+            <li class="footer-menu-item">
+              <a
+                class="footer-menu-link"
+                href="#vegetables"
+                aria-label="go to section vegetables"
+              >
+                vegetables
+              </a>
+            </li>
 
-          <address class="footer-contacts">
-                <a class="footer-contacts-link" href="tel:+380684439426" target="_blank">+380 (68) 443-94-26</a>
-  
-                <a class="footer-address" href="https://www.google.com/maps/dir//1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B/@40.733176,-112.0415322,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8752f35bbcfb1369:0x260ab4842496c9e4!2m2!1d-111.9591551!2d40.7332074?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D">1678 S. Pioneer Road Salt Lake City UT 84104</a>
-          </address>
-        </div>
+            <li class="footer-menu-item">
+              <a
+                class="footer-menu-link"
+                href="#reviews"
+                aria-label="go to section reviews"
+              >
+                reviews
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="footer-contacts">
+          <a
+            class="footer-contacts-link"
+            href="tel:+380684439426"
+            target="_blank"
+            aria-label="Phone number"
+            >+380 (68) 443-94-26
+          </a>
+
+          <a
+            class="footer-address"
+            target="_blank"
+            href="https://www.google.com/maps/dir//1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B/@40.733176,-112.0415322,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8752f35bbcfb1369:0x260ab4842496c9e4!2m2!1d-111.9591551!2d40.7332074?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"
+            aria-label="Link to map"
+            >1678 S. Pioneer Road Salt Lake City UT 84104
+          </a>
+        </address>
+      </div>
     </div>
 
-      <div class="footer-site-info">
-        <div class="footer-legal-links">
-          <ul class="legal-links-list">
-            <li class="legal-links-item">
-              <a class="footer-legal-link" href="#" target="_blank">Privacy Policy</a>
+    <div class="footer-site-info">
+      <div class="footer-legal-links">
+        <ul class="legal-links-list">
+          <li class="legal-links-item">
+            <a
+              class="footer-legal-link"
+              href="https://www.freeprivacypolicy.com/live/ceb1d652-4518-4e59-8c28-ccda243e8d64"
+              target="_blank"
+              aria-label="Link Privacy Policy"
+            >
+              Privacy Policy
+            </a>
+          </li>
 
-            </li>
-            <li class="legal-links-item">
-              /
-            </li>
+          <li class="legal-links-item">/</li>
 
           <li class="legal-links-item">
-            <a class="footer-legal-link" href="#" target="_blank"
-              >Cookie settings</a
+            <a
+              class="footer-legal-link"
+              href="https://www.freeprivacypolicy.com/live/0c76ce29-6b21-4634-b3d2-327d97d704c4"
+              target="_blank"
+              aria-label="Link cookie settings"
             >
+              Cookie settings
+            </a>
           </li>
         </ul>
         <p class="footer-fundation-year">&#169;Green Harvest 2023</p>
@@ -469,10 +654,15 @@
   </div>
 </footer>
 
-    <div class="mob-menu-overlay is-open">
+    <div class="mob-menu-overlay" data-menu>
   <div class="mob-menu">
-    <button class="mob-menu-close-btn" type="button">
-      <svg class="mob-menu-close-icon">
+    <button
+      class="mob-menu-close-btn"
+      type="button"
+      aria-label="close menu button"
+      data-menu-close
+    >
+      <svg class="mob-menu-close-icon" aria-hidden="true">
         <use href="/Ctrl-Alt-Elite/assets/icons-rAv662MY.svg#icon-icon-close"></use>
       </svg>
     </button>
@@ -480,13 +670,31 @@
     <nav class="mob-menu-nav">
       <ul class="mob-menu-nav-list">
         <li class="mob-menu-nav-item">
-          <a class="mob-menu-nav-link" href="#hiw">How It Works</a>
+          <a
+            class="mob-menu-nav-link"
+            href="#hiw"
+            aria-label="go to section how it works"
+          >
+            How It Works
+          </a>
         </li>
         <li class="mob-menu-nav-item">
-          <a class="mob-menu-nav-link" href="#vegetables">Vegetables</a>
+          <a
+            class="mob-menu-nav-link"
+            href="#vegetables"
+            aria-label="go to section vegetables"
+          >
+            Vegetables
+          </a>
         </li>
         <li class="mob-menu-nav-item">
-          <a class="mob-menu-nav-link" href="#reviews">Reviews</a>
+          <a
+            class="mob-menu-nav-link"
+            href="#reviews"
+            aria-label="go to section reviews"
+          >
+            Reviews
+          </a>
         </li>
       </ul>
     </nav>
