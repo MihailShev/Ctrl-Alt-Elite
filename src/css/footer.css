@@ -45,7 +45,6 @@
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
-  /* 100% */
   letter-spacing: -0.01em;
   color: #fbfbfb;
 }
@@ -65,6 +64,10 @@
   letter-spacing: -0.01em;
   color: #fbfbfb;
 }
+
+.footer-contacts-link .icon-phone {
+  animation: ring 0.7s infinite;
+}
 .footer-address {
   max-width: 179px;
   font-size: 14px;
@@ -73,6 +76,20 @@
   letter-spacing: -0.01em;
   color: #fbfbfb;
 }
+
+.footer-address .icon-location {
+  animation: bounce 0.8s infinite;
+}
+
+.footer-contacts-link,
+.footer-address {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  fill: #fbfbfb;
+  transition: color 250ms ease-in;
+}
+
 .footer-site-info {
   font-size: 12px;
   font-weight: 500;
@@ -90,11 +107,9 @@
   gap: 8px;
 }
 .footer-legal-link {
-  font-family: 'Inter Tight', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
-  /* 116.667% */
   letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.5);
 }
@@ -168,34 +183,42 @@
   }
 }
 
-
-
 /*   --menu */
 
 .footer-menu-item {
-  
   perspective: 200px;
   transform-origin: center;
-  
 }
 
 .footer-menu-item:hover .footer-menu-link {
   display: block;
   color: #85c925;
-transform: rotateY(65deg);
-transition: all 0.7s;
+  transform: rotateY(65deg);
+  transition: all 0.7s;
 }
 .footer-address:active,
 .footer-menu-item:active .footer-menu-link {
-color: #1f5e11;
+  color: #1f5e11;
 }
-
 
 /* tel */
 .footer-address:hover,
 .footer-address:focus,
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
-color: rgba(251, 251, 251, 0.50);
+  color: rgba(251, 251, 251, 0.5);
+}
 
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts-link:hover,
+.footer-contacts-link:focus .icon-phone {
+  fill: rgba(251, 251, 251, 0.5);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts-link:hover,
+.footer-contacts-link:focus .icon-address {
+  fill: rgba(251, 251, 251, 0.5);
 }

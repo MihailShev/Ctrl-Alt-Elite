@@ -66,17 +66,3 @@
     padding-left: 0;
   }
 }
-
-@keyframes discount-40 {
-  0% {
-    color: rgb(251, 251, 251, 1);
-  }
-
-  50% {
-    color: rgb(251, 251, 251, 0.2);
-  }
-
-  100% {
-    color: rgb(251, 251, 251, 1);
-  }
-}
