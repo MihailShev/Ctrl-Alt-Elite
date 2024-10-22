@@ -48,6 +48,7 @@
   padding: 12px 59px 12px 24px;
   display: flex;
   align-items: center;
+  transition: transform 250ms ease-in, box-shadow 250ms ease-in;
 }
 .hiw-item:first-child {
   padding: 12px 27px 12px 24px;
@@ -55,7 +56,10 @@
 .hiw-item:last-child {
   padding: 12px 24px;
 }
-
+.hiw-item:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 4px rgba(0.2, 0.2, 0.2, 0.2);
+}
 .bold-text {
   font-weight: 700;
   color: #141414;
