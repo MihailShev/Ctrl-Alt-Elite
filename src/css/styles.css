@@ -1,4 +1,5 @@
 /* ===== general style===== */
+@import url('./animatoin.css');
 @import url(./loader.css);
 @import url('./reset.css');
 @import url('./base.css');
@@ -6,7 +7,20 @@
 
 /* ===== sections style===== */
 
-/*     .header  (z-index: 100;)     */
+/*
+ ----- loader.css -----
+.wrapper-loader (z-index: 9999;)
+
+ ----- header.css -----
+.header  (z-index: 100;) 
+
+ ----- new-modal.css -----
+.main-baslet-wrapper (z-index: 150;)
+
+ ----- mobile-menu.css -----
+.mob-menu (z-index: 10;)
+.mob-menu-overlay (z-index: 9;)
+*/
 
 @import url('./header.css');
 @import url('./hero.css');
