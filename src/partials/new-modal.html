@@ -1,4 +1,4 @@
-<div class="main-baslet-wrapper is-open">
+<div class="main-baslet-wrapper">
   <div class="container wrapper-img">
     <button class="close-btn" type="button">
       <svg class="close-icon" width="25" height="25">
@@ -28,7 +28,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -57,7 +57,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -89,7 +89,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -118,7 +118,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -150,7 +150,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -184,7 +184,7 @@
                 <use href="/img/new-icon.svg#icon-minus"></use>
               </svg>
             </button>
-            <span class="massa">0</span>
+            <span class="massa">0.0</span>
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-plus"></use>
@@ -200,67 +200,85 @@
       <span class="all-price"> 0</span>
       <p class="word-total usd">USD</p>
 
-      <button class="buy-btn">Order</button>
+      <button class="buy-btn">
+        <a href="#form"> Order</a>
+      </button>
     </div>
 
-    <p class="title-form">Fill out the form below and we will contact you !</p>
-    <div class="form-container hidden">
-      <form class="order-form-d">
-        <input
-          class="order-form-field-d order-form-input-d"
-          pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s'-]+$"
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Name"
-          required
-        />
-        <label class="order-form-label-d" for="name">Name</label>
+    <div class="wrapper-form-container-new-modal hidden" id="form">
+      <p class="title-form">
+        Fill out the form below and we will contact you !
+      </p>
+      <div class="form-container">
+        <form class="order-form-d">
+          <input
+            class="order-form-field-d order-form-input-d"
+            pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s'-]+$"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <label class="order-form-label-d" for="name">Name</label>
 
-        <input
-          class="order-form-field-d order-form-input-d"
-          type="email"
-          id="email"
-          name="email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          placeholder="Email"
-          required
-        />
-        <label class="order-form-label-d" for="email">Email</label>
+          <input
+            class="order-form-field-d order-form-input-d"
+            type="email"
+            id="email"
+            name="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+            required
+          />
+          <label class="order-form-label-d" for="email">Email</label>
 
-        <input
-          class="order-form-field-d order-form-input-d"
-          type="tel"
-          id="tel"
-          pattern="^\+?\d{0,3}[-.\s]?\(?\d{1,4}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$"
-          name="tel"
-          placeholder="Phone Number"
-          required
-        />
-        <label class="order-form-label-d label-tel" for="tel"
-          >Phone Number</label
-        >
+          <input
+            class="order-form-field-d order-form-input-d"
+            type="tel"
+            id="tel"
+            pattern="^\+?\d{0,3}[-.\s]?\(?\d{1,4}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$"
+            name="tel"
+            placeholder="Phone Number"
+            required
+          />
+          <label class="order-form-label-d label-tel" for="tel"
+            >Phone Number</label
+          >
 
-        <div class="cont-chekbox">
-          <span class="title-checkbox">Select payment method:</span>
-          <input type="radio" id="cash" name="payment" value="cash" required />
-          <label class="checkbox-label" for="cash">Cash</label>
-          <input type="radio" id="card" name="payment" value="card" required />
-          <label class="checkbox-label" for="card">Card</label>
-        </div>
+          <div class="cont-chekbox">
+            <span class="title-checkbox">Select payment method:</span>
+            <input
+              type="radio"
+              id="cash"
+              name="payment"
+              value="cash"
+              required
+            />
+            <label class="checkbox-label" for="cash">Cash</label>
+            <input
+              type="radio"
+              id="card"
+              name="payment"
+              value="card"
+              required
+            />
+            <label class="checkbox-label" for="card">Card</label>
+          </div>
 
-        <textarea
-          class="textarea-coment"
-          id="comments"
-          name="comments"
-          rows="4"
-          cols="50"
-          placeholder="Comment"
-        ></textarea>
-        <label class="textarea-lebal" for="comments">Comment</label>
+          <textarea
+            class="textarea-coment"
+            id="comments"
+            name="comments"
+            rows="4"
+            cols="50"
+            placeholder="Comment"
+          ></textarea>
+          <label class="textarea-lebal" for="comments">Comment</label>
 
-        <button class="checkbox-btn" type="submit">Order Now</button>
-      </form>
+          <button class="checkbox-btn" type="submit">Order Now</button>
+        </form>
+      </div>
     </div>
   </div>
 </div>
