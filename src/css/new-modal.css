@@ -77,7 +77,7 @@
 }
 
 .product {
-  min-width: 240px;
+  width: 240px;
   height: 240px;
   padding: 20px 20px;
   background-color: #fbfbfb;
@@ -99,14 +99,14 @@
 
 .prise {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .prise-prod {
   font-size: 16px;
   font-weight: 400;
-  margin-right: 5px;
 }
 
 .massa-prod {
@@ -119,13 +119,23 @@
   color: #141414;
 }
 
+.plus-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
 .plus-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
   fill: #fff;
   stroke: #fff;
 }
+
+
 .prise-btn {
   border-radius: 4px;
   background-color: #576f35;
@@ -149,12 +159,6 @@
   pointer-events: none;
 }
 
-@keyframes ripple-animation {
-  to {
-    transform: scale(4);
-    opacity: 0;
-  }
-}
 
 .massa {
   margin: 0 10px;
@@ -430,12 +434,14 @@
 
   .prise-prod {
     font-size: 20px;
-    margin-right: 3px;
+  }
+  
+  .product {
+    width: 250px;
   }
 
   .massa-prod {
     margin-left: 0;
-    margin-right: 5px;
     font-size: 16px;
   }
 
@@ -503,12 +509,7 @@
   .order-form-d {
     padding: 50px 20px 40px 20px;
   }
-
-  .product {
-    max-width: 240px;
-    width: calc((100% - 30px) / 3);
-  }
-
+  
   .total-prise {
     margin-top: 25px;
   }
@@ -559,3 +560,11 @@
     margin-bottom: 20px;
   }
 }
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+

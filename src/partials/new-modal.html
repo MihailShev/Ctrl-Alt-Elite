@@ -8,21 +8,13 @@
     <ul class="baslet-list-product">
       <li class="product">
         <p class="name-prod">Eggplant</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="
+        <img loading="lazy" class="modal-img" width="160" height="160" srcset="
             /img/vegetables/eggplant.png    1x,
             /img/vegetables/eggplant@2x.png 2x
-          "
-          src="img/vegetables/eggplant.png"
-          alt="eggplant"
-        />
+          " src="img/vegetables/eggplant.png" alt="eggplant" />
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">60</span> usd / kg</p>
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -40,18 +32,12 @@
 
       <li class="product">
         <p class="name-prod">Leek</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="/img/vegetables/leek.png 1x, /img/vegetables/leek@2x.png 2x"
-          src="/img/vegetables/leek.png"
-          alt="leek"
-        />
+        <img loading="lazy" class="modal-img" width="160" height="160"
+          srcset="/img/vegetables/leek.png 1x, /img/vegetables/leek@2x.png 2x" src="/img/vegetables/leek.png"
+          alt="leek" />
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">50</span> usd / kg</p>
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -69,21 +55,13 @@
 
       <li class="product">
         <p class="name-prod">Mushrooms</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="
+        <img loading="lazy" class="modal-img" width="160" height="160" srcset="
             /img/vegetables/mushrooms.png    1x,
             /img/vegetables/mushrooms@2x.png 2x
-          "
-          src="/img/vegetables/mushrooms.png"
-          alt="mushrooms"
-        />
+          " src="/img/vegetables/mushrooms.png" alt="mushrooms" />
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">40</span> usd / kg</p>
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -101,18 +79,12 @@
 
       <li class="product">
         <p class="name-prod">Corn</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="/img/vegetables/corn.png 1x, /img/vegetables/corn@2x.png 2x"
-          src="/img/vegetables/corn.png"
-          alt="corn"
-        />
+        <img loading="lazy" class="modal-img" width="160" height="160"
+          srcset="/img/vegetables/corn.png 1x, /img/vegetables/corn@2x.png 2x" src="/img/vegetables/corn.png"
+          alt="corn" />
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">60</span> usd / kg</p>
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -130,21 +102,13 @@
 
       <li class="product">
         <p class="name-prod">Sweet-potatoes</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="
+        <img loading="lazy" class="modal-img" width="160" height="160" srcset="
             /img/vegetables/sweet-potatoes.png    1x,
             /img/vegetables/sweet-potatoes@2x.png 2x
-          "
-          src="/img/vegetables/sweet-potatoes.png"
-          alt="sweet-potatoes"
-        />
+          " src="/img/vegetables/sweet-potatoes.png" alt="sweet-potatoes" />
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">50</span> usd / kg</p>
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -162,23 +126,15 @@
 
       <li class="product">
         <p class="name-prod">Carrot</p>
-        <img
-          loading="lazy"
-          class="modal-img"
-          width="160"
-          height="160"
-          srcset="
+        <img loading="lazy" class="modal-img" width="160" height="160" srcset="
             /img/vegetables/carrot.png    1x,
             /img/vegetables/carrot@2x.png 2x
-          "
-          src="/img/vegetables/carrot.png"
-          alt="carrot"
-        />
+          " src="/img/vegetables/carrot.png" alt="carrot" />
 
         <div class="prise">
           <p class="massa-prod"><span class="prise-prod">70</span> usd / kg</p>
 
-          <div class="plus-icon">
+          <div class="plus-icon-wrapper">
             <button class="prise-btn" type="button">
               <svg class="plus-icon" width="15" height="15">
                 <use href="/img/new-icon.svg#icon-minus"></use>
@@ -211,69 +167,29 @@
       </p>
       <div class="form-container">
         <form class="order-form-d">
-          <input
-            class="order-form-field-d order-form-input-d"
-            pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s'-]+$"
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
+          <input class="order-form-field-d order-form-input-d" pattern="[A-Za-zА-Яа-яЁёЄеЇї\s`\-]+" type="text"
+            id="name" name="name" placeholder="Name" required />
           <label class="order-form-label-d" for="name">Name</label>
 
-          <input
-            class="order-form-field-d order-form-input-d"
-            type="email"
-            id="email"
-            name="email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            placeholder="Email"
-            required
-          />
+          <input class="order-form-field-d order-form-input-d" type="email" id="email" name="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required />
           <label class="order-form-label-d" for="email">Email</label>
 
-          <input
-            class="order-form-field-d order-form-input-d"
-            type="tel"
-            id="tel"
-            pattern="^\+?\d{0,3}[-.\s]?\(?\d{1,4}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$"
-            name="tel"
-            placeholder="Phone Number"
-            required
-          />
-          <label class="order-form-label-d label-tel" for="tel"
-            >Phone Number</label
-          >
+          <input class="order-form-field-d order-form-input-d" type="tel" id="tel"
+            pattern="^\+?\d{0,3}[-.\s]?\(?\d{1,4}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$" name="tel"
+            placeholder="Phone Number" required />
+          <label class="order-form-label-d label-tel" for="tel">Phone Number</label>
 
           <div class="cont-chekbox">
             <span class="title-checkbox">Select payment method:</span>
-            <input
-              type="radio"
-              id="cash"
-              name="payment"
-              value="cash"
-              required
-            />
+            <input type="radio" id="cash" name="payment" value="cash" required />
             <label class="checkbox-label" for="cash">Cash</label>
-            <input
-              type="radio"
-              id="card"
-              name="payment"
-              value="card"
-              required
-            />
+            <input type="radio" id="card" name="payment" value="card" required />
             <label class="checkbox-label" for="card">Card</label>
           </div>
 
-          <textarea
-            class="textarea-coment"
-            id="comments"
-            name="comments"
-            rows="4"
-            cols="50"
-            placeholder="Comment"
-          ></textarea>
+          <textarea class="textarea-coment" id="comments" name="comments" rows="4" cols="50"
+            placeholder="Comment"></textarea>
           <label class="textarea-lebal" for="comments">Comment</label>
 
           <button class="checkbox-btn" type="submit">Order Now</button>
